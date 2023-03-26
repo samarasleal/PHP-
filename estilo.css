@@ -1,0 +1,100 @@
+@charset "utf-8";
+	body{
+	margin:0px;
+	}
+	#topo{
+		width:100%;
+		}
+	#conteudologin{
+		width:100%;
+		background-image:url(login.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		}
+	.conteudo{
+		margin-top:-1px;
+		margin-left:10%;
+		margin-right:10%;
+		border: groove #999999 1px;
+		padding-left:08px;
+		}
+	.selecao{
+		margin-top:06px;
+		border: groove #999999 1px;
+		width:500px;
+		padding-left:08px;
+	}
+	.selecao input{
+		width:60px;
+		height:22px;
+		margin-top:01px;
+		text-align:center;
+	}
+	#rodape{
+		text-align:center;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:10px;
+		top:0px;
+		border:solid 1px green;
+		}
+    .style1{
+		color: #666666;
+		font-size: 12px;
+	}
+	.style2{
+		color: #009933;
+		font-size: 20px;
+		text-align:center;
+		text-shadow:#66CC66;
+		margin-top:02px;
+	}
+	#login{
+		padding-top:115px;
+	}
+	.menu{
+		list-style:none;
+		margin-top:-16px;
+		padding-left:0px;
+		}
+	.menu li{
+		position:relative;
+	}
+	.menu li a{
+		font-size:16px;  
+		color:white;
+		text-decoration:none; 
+		padding:3 10 1 8;
+		margin-right:2px; 
+		display:block;
+		float:left;
+		border-right:solid 2px #666666;
+		border-left:solid 2px #666666;
+		border-top:solid 1px #666666;
+		background-color:#000000;
+		width:92px;
+		text-align:center;
+	}
+	.menu li a:hover{
+		background:#333; 
+		color:#fff; 
+		-moz-box-shadow:0 3px 10px 0 #CCC; 
+		-webkit-box-shadow:0 3px 10px 0 #ccc; 
+		text-shadow:0px 0px 5px #fff;
+		border-top:solid 1.5px #009966;
+	}
+	.menu li ul{
+		position:absolute; 
+		display:none;
+	}
+	.menu li:hover ul ul{
+		display:none;
+	}
+	.menu li:hover ul, .menu li ul li:hover ul, .menu li.over ul, .menu li ul li.over ul{
+		display:block;
+	}
+	.menu li ul li{
+		display:block; 
+	}
+	li.border0{
+		border:solid 1px #999999;
+	}
